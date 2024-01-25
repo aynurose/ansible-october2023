@@ -1,0 +1,9 @@
+- hosts: all
+  roles:
+    - apache
+    - packages
+    - php
+    - wordpress
+    - database
+
+
